@@ -13,20 +13,19 @@ div {
     margin: 25px;
     border: 3px solid black;
     border-radius: 50%;
-    transform: rotate(-45deg);
 }
 div:hover {
-    box-shadow: -5px 5px 10px 5px #00000033;
+    box-shadow: 0 5px 10px 5px #00000033;
 }
 #colors1 {
-    background: linear-gradient(to right, #FF3F00 50%, #FAFF00 50%);
+    background: linear-gradient(45deg, #FF3F00 50%, #FAFF00 50%);
 }
 #colors2 {
-    background: linear-gradient(to right, #B980F0 50%, #FE9898 50%);
+    background: linear-gradient(45deg, #B980F0 50%, #FE9898 50%);
 }
 #colors3 {
-    background: linear-gradient(to right, #0F044C 50%, #787A91 50%);
+    background: linear-gradient(45deg, #0F044C 50%, #787A91 50%);
 }
 #colors4 {
-    background: linear-gradient(to right, #5D8233 50%, #ECD662 50%);
+    background: linear-gradient(45deg, #5D8233 50%, #ECD662 50%);
 }
